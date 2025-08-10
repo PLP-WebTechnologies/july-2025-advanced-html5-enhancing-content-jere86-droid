@@ -1,0 +1,149 @@
+
+    <meta charset="UTF-8">
+    <title>Simple Form with Fieldset</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League Showcase</title>
+</head>
+<body>
+
+<header>
+    <h1>Premier League Showcase</h1>
+</header>
+
+<main>
+
+    <!-- Lists Section -->
+    <section>
+        <h2>Premier League Teams</h2>
+        
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Arsenal</li>
+            <li>Manchester City</li>
+            <li>Liverpool</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Chelsea</li>
+            <li>Tottenham Hotspur</li>
+            <li>Newcastle United</li>
+        </ul>
+
+        <h3>Definition List</h3>
+        <dl>
+            <dt>Arsenal</dt>
+            <dd>Based in London, known as "The Gunners".</dd>
+
+            <dt>Manchester City</dt>
+            <dd>Based in Manchester, current champions.</dd>
+
+            <dt>Liverpool</dt>
+            <dd>Based in Liverpool, famous for "You'll Never Walk Alone".</dd>
+        </dl>
+
+        <h3>Nested List</h3>
+        <ul>
+            <li>Top 3 Teams
+                <ol>
+                    <li>Arsenal</li>
+                    <li>Manchester City</li>
+                    <li>Liverpool</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Table Section -->
+    <section>
+        <h2>Premier League Table (Sample)</h2>
+        <table border="1">
+            <tr>
+                <th>Team</th>
+                <th>Points</th>
+                <th>Wins</th>
+            </tr>
+            <tr>
+                <td>Arsenal</td>
+                <td>80</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Manchester City</td>
+                <td>78</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Liverpool</td>
+                <td>75</td>
+                <td>23</td>
+            </tr>
+        </table>
+    </section>
+
+    !-- Media Section -->
+  <h3>Premier League Media</h3>
+
+  <!-- Image from Pexels -->
+  <h4>Football Stadium</h4>
+  <img src="https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg" 
+       alt="A football stadium with green pitch" 
+       width="500">
+
+  <!-- Audio from Pexels (royalty-free sound) -->
+  <h3>Crowd Cheering Audio</h3>
+  <audio controls>
+    <source src="https://cdn.pixabay.com/download/audio/2021/09/01/audio_0ff3a5cf3a.mp3?filename=crowd-cheer-6711.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Video from Pexels -->
+  <h3>Football Match Highlight</h3>
+  <video width="500" controls>
+    <source src="https://www.pexels.com/download/video/853889/" type="video/mp4">
+  </video>
+  </table>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form with Fieldset</title>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Join Our Fan Club</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="team">Favorite Team:</label>
+                <select id="team" name="team">
+                    <option>Arsenal</option>
+                    <option>Manchester City</option>
+                    <option>Liverpool</option>
+                </select>
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Join Now">
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Premier League Showcase</p>
+</footer>
+
+</body>
+</html>
+
+
